@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.img {
+    height: 60px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.button {
+    display: flex;
+    padding-left: 500px;
+    gap: 25px;
+    margin-top: -55px;
+    margin-left: -120px;
+
+}
+
+.b1 {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.b2 {
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.right {
+    height: 580px;
+    width: 600px;
+    background-size: cover;
+    margin-left: 100px;
+    background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq');
+}
+
+.h1 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    margin-bottom: -40px;
+    padding-top: -60px;
+    margin-left: 20px;
+}
+
+input {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+    width: 450px;
+}
+
+.bu3 {
+    height: 30px;
+    width: 100px;
+    /* #0000ff  */
+    background-color: blue;
+    margin-left: -98px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.bu4 {
+    margin-top: 20px;
+    margin-left: -11px;
+    height: 35px;
+    width: 100px;
+    font-size: 16px;
+    background-color: #fc8019;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+   
+    border: none;
+    cursor: pointer;
+}
+
+.para1 {
+    margin-top: 30px;
+    margin-left: 18px;
+
+}
+
+.para2 {
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+.black {
+    height: 600px;
+    flex-direction: row;
+    display: flex;
+    background-color: black;
+    gap: 250px;
+    color: white;
+
+
+}
+
+.margin {
+    margin-left: 18px;
+}
+
+.margin1 {
+    margin-bottom: 50px;
+}
+
+.margin2 {
+    margin-right: 18px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+}
+
+p {
+    margin-left: 18px;
+}
+
+.white {
+    display: flex;
+}
+
+.white1 {}
+
+.white2 {
+    height: 459px;
+    width: 300px;
+    padding-right: 100px;
+    margin-bottom: -103px;
+    background: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n");
+    background-position: center;
+    background-size: cover;
+}
+
+.res {
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 1;
+    letter-spacing: -.45px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    letter-spacing: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 1.2;
+
+}
+
+.bu1 {
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.bu2 {
+    width: 180px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.white3
+{
+    margin-bottom: -1000px;
+}
+
+.i1 {
+    width: 180px;
+
+    height: 40px;
+}
+
+.four {
+    background-color: black;
+}
+
+.f1 {
+    font-size: x-large;
+    margin-left: 40px;
+    margin-bottom: -40px;
+
+}
+
+li {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.color {
+    background-color: black;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    font-size: medium;
+    width: 200px;
+    text-align: left;
+}
+
+.four {
+    display: flex;
+    min-width: 300px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+  letter-spacing: 0;
+  line-height: 1.2;
+    gap: 60px;
+}
+
+.but1 {
+    width: 180px;
+    height: 80px;
+    margin-top: 50px;
+    border:1px solid white;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: -70px;
+    border-radius: 5px;
+
+    /* border-bottom-right-radius :2px solid rgb(223, 35, 35); */
+}
+.but2:hover
+{
+    background-color: black;
+}
+.but2 {
+    width: 180px;
+    height: 80px;
+    border:1px solid white;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: none;
+    padding-left: -70px;
+    border-radius: 5px;
+
+}
+.but1:hover
+{
+    background-color: black;
+}
+.i2 {
+    width: 180px;
+    height: 80px;
+    cursor: pointer;
+    padding-left: -70px;
+}
+
+.d
+{
+    margin-left: 70px;
+}
+.five
+{
+    display: flex;
+    gap: 80px;
+    background-color: black;
+    padding-bottom: 30px;
+   
+}
+.two
+{
+    margin-top: 130px;
+}
+.three
+{
+    margin-top: 130px;
+}
+.four
+{
+    margin-top: 130px;
+}
+.last
+{
+    background-color: black;
+    display: flex;
+    text-align: right;
+    border-top: 1px solid white;
+    border-color: #7e808c;
+   
+}
+.li1
+{
+ margin-top: 70px; 
+ margin-left: -350px;  
+}
+.li2
+{
+    margin-top: 70px; 
+    margin-left: 800px;
+    
+     
+}
+.final
+{
+    border-top: 1px solid white;
+    display: flex;
+    background-color: black;
+    border-color: #7e808c;
+}
+.img5
+{
+    margin-top: 50px; 
+    height: 40px;
+    width: 142px;
+    margin-bottom: 50px;
+    margin-left: 50px; 
+}
+.h44
+{
+    margin-top: 59px;
+    margin-left: 420px; 
+    color:white;
+}
+.fin{
+height: 100px;width: 100px;
+padding-left: 400px;
+padding-top: 59px;
+gap: -80px;
+}

@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+nav {
+
+    /* background-color: red; */
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    position: absolute;
+
+}
+
+.logo {
+    width: 200px;
+    height: 40px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    /* background-color: red; */
+
+}
+
+.star {
+
+    width: 100%;
+    height: 800px;
+    background: url("https://i.abcnewsfe.com/a/2fba6849-4d9f-4b3e-8109-2bb19f2d4077/spacex-ht-jt-231118_1700324325343_hpMain_16x9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.s2 {
+
+    width: 100%;
+    height: 800px;
+    background: url("https://spaceflightnow.com/wp-content/uploads/2020/01/49399916862_cd676f67f6_o-copy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.s3 {
+
+    width: 100%;
+    height: 800px;
+    background: url("https://media.wired.com/photos/5c09c6b91484482e0a1cc326/master/pass/clowncarsat.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.first {
+    
+    padding-top: 300px;
+    padding-right:50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+
+}
+.button
+{
+   width: 100px;
+   height: 30px;
+}
+.button:hover
+{
+    color: blueviolet;
+    background-color: aqua;
+}
+.bar
+{
+padding-left: 400px;
+
+}
