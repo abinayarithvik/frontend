@@ -1,0 +1,49 @@
+.navv{
+
+    background-color: black;
+}
+
+.mainn {
+    width: 100%;
+    height: 130vh;
+    background: black;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 30px;
+    align-items: center;
+    font-size: 16px;
+}
+
+#buttonn {
+    display: flex;
+    padding-left: 800px;
+    gap: 40px;
+    margin-top: -50px;
+}
+.bb1 {
+    background-color: black;
+    color: aliceblue;
+    border: 0;
+    cursor: pointer;
+    font: 1em sans-serif;
+
+}
+.bb1:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+.high
+{
+    color: rgb(211, 135, 43);
+}
+h1{
+     color: rgb(211, 135, 43);
+}
+h2{
+    color: rgb(255, 199, 132);
+}
+td{
+    color: rgb(255, 238, 218);
+}

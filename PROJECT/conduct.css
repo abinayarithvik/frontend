@@ -1,0 +1,34 @@
+#navv {
+
+    background-color: black;
+}
+
+.mainn {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    background-position: center;
+    background-size: cover;
+}
+
+#buttonn {
+    display: flex;
+    padding-left: 800px;
+    gap: 40px;
+    margin-top: -50px;
+}
+
+#bb1:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+
+#bb1 {
+    background-color: black;
+    color: aliceblue;
+    border: 0;
+    cursor: pointer;
+    font: 1em sans-serif;
+
+}
